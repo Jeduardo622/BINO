@@ -1,0 +1,20 @@
+---
+description: Core always-on project rule for completion-first Codex behavior
+alwaysApply: true
+---
+
+Read `AGENTS.md` and all files in `docs/` before making implementation decisions.
+
+Operate in completion-first mode:
+- complete all non-blocked work
+- preserve architecture unless the repo is effectively empty
+- never hallucinate MCP or external results
+- do not stop early because one dependency fails
+- leave a structured residual task list for blocked work
+
+Critical product rules:
+- retrieval is the source of truth
+- deterministic logic decides inclusion where fields exist
+- no surfaced result without citation and canonical source link
+- unknown fields remain unknown
+- keep storage lean and privacy-conscious

@@ -1,0 +1,28 @@
+---
+description: Force doc-first implementation planning and final reporting
+alwaysApply: true
+---
+
+Before implementation:
+1. inspect the repo
+2. read `docs/PRODUCT.md`
+3. read `docs/SCOPE.md`
+4. read `docs/RULES.md`
+5. read `docs/ARCHITECTURE.md`
+6. read `docs/DATA_MODEL.md`
+7. read `docs/ACCEPTANCE.md`
+8. read `docs/VERIFICATION.md`
+
+Then provide:
+- whether the repo is being extended or initialized
+- concise audit summary
+- short implementation plan
+
+At the end, report:
+- what changed
+- files changed
+- schema/migration changes
+- commands run
+- what passed
+- what failed
+- residual task list using `docs/RESIDUAL_TASK_TEMPLATE.md`
